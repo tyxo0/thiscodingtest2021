@@ -26,4 +26,4 @@ while True: # 25 3  24  1  n=8  cnt = 2
     # if n < k: 
     #     cnt += n-1
     #     break
-print(cnt)
+print(cnt) #
