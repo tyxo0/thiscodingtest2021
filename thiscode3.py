@@ -33,7 +33,7 @@ for i in fearType:
 
 #남은 인원들로 다시 팀 구성
 rtemp = 0 
-for i in range(0, len(fearType)):
+for i in range(0, n):
     rtemp += typeNum[i]
     if(rtemp >= fearType[i]):
         rtemp -= fearType[i]
